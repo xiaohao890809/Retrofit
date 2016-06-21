@@ -21,7 +21,7 @@ dataCall.enqueue(new retrofit2.Callback<Data>()
 });
 ```
 
-* 第二种
+* 第二种（利用Rxjava和RxAndroid）
 
 ```
 @GET("query")
