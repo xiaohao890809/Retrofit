@@ -3,7 +3,7 @@
 两种实现方法：
 * 第一种
 
-
+```
 Call<Data> dataCall = ExpressApiService.getInstace().result("shunfeng", "199383850438");
 dataCall.enqueue(new retrofit2.Callback<Data>()
 {
@@ -19,7 +19,7 @@ dataCall.enqueue(new retrofit2.Callback<Data>()
 
 	}
 });
-
+```
 
 * 第二种
 
